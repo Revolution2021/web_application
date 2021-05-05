@@ -1,4 +1,19 @@
-Insert into tb4x(Country,Agency,email)  value(Afgahanistan,ABC Travel,123@gmail.com);
-Insert into tb4x(Country,Agency,email) value ('Australia','DEF Travel','456@yahoo.com');
-Insert into tb4x(Country,Agency,email) value ('England','GHI Travel','789@hotmail.com');
-Insert into tb4x(Country,Agency,email) values ('France','JFK Travel','1111@yahoo.co.jp');
+mysql> create table tb3 (Country varchar(25), Agency varchar(25), email varchar(30));
+Query OK, 0 rows affected (0.24 sec)
+
+
+mysql> desc tb3;
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| Country | varchar(25) | YES  |     | NULL    |       |
+| Agency  | varchar(25) | YES  |     | NULL    |       |
+| email   | varchar(30) | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
+3 rows in set (0.04 sec)
+
+
+Insert into tb3(Country,Agency,email)  value(Afgahanistan,ABC Travel,123@gmail.com);
+Insert into tb3(Country,Agency,email) value ('Australia','DEF Travel','456@yahoo.com');
+Insert into tb3(Country,Agency,email) value ('England','GHI Travel','789@hotmail.com');
+Insert into tb3(Country,Agency,email) values ('France','JFK Travel','1111@yahoo.co.jp');
