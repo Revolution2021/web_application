@@ -2,6 +2,7 @@
 <Mysql + Python Flask + HTML> variable data stored in Mysql DB displayed in HTML using Python Flask 
 
 Explanation&Implementation Manual with Code and Sample Data
+
 PDF→　https://github.com/kazu0116/web_application/blob/main/Manual_may2021.pdf
 
 Powerpoint →　https://github.com/kazu0116/web_application/blob/main/Manual_may2021.pptx
