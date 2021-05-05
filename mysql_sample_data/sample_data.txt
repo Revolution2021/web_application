@@ -1,0 +1,4 @@
+Insert into tb4x(Country,Agency,email)  value(Afgahanistan,ABC Travel,123@gmail.com);
+Insert into tb4x(Country,Agency,email) value ('Australia','DEF Travel','456@yahoo.com');
+Insert into tb4x(Country,Agency,email) value ('England','GHI Travel','789@hotmail.com');
+Insert into tb4x(Country,Agency,email) values ('France','JFK Travel','1111@yahoo.co.jp');
