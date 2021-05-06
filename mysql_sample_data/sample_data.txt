@@ -25,10 +25,10 @@ Insert into tb3(Country,Agency,email) value ('England','GHI Travel','789@hotmail
 Insert into tb3(Country,Agency,email) values ('France','JFK Travel','1111@yahoo.co.jp');
 
 
-mysql> create user testuser@localhost identified by 'password';   # Mysql v8.0, "create user" at first required.
+mysql> create user testuser@localhost identified by 'password';     # Mysql v8.0, "create user" at first required.
 Query OK, 0 rows affected (0.14 sec)
 
-mysql> grant all on *.* to testuser@localhost with grant option; # Mysql v8.0, "Grant" allowed at 2nd step.
+mysql> grant all on *.* to testuser@localhost with grant option;    # Mysql v8.0, "Grant" allowed at 2nd step.
 Query OK, 0 rows affected (0.19 sec)
 
 ======================================
