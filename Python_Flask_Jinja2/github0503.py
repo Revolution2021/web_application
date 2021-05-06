@@ -14,7 +14,7 @@ def getConnection():
 		host='localhost',
 		db='first_db',
 		user='root',
-		password='yireozna',
+		password='password',
 		charset='utf8',
 		cursorclass=pymysql.cursors.DictCursor
 		)
