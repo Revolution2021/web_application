@@ -1,4 +1,4 @@
-mysql> create database my_testdb;
+mysql> create database first_db;
 Query OK, 1 row affected (0.01 sec)
 
 mysql> use my_testdb;
