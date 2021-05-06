@@ -1,3 +1,9 @@
+mysql> create database my_testdb;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use my_testdb;
+Database changed
+
 mysql> create table tb3 (Country varchar(25), Agency varchar(25), email varchar(30));
 Query OK, 0 rows affected (0.24 sec)
 
