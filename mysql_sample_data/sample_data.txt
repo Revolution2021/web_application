@@ -30,3 +30,6 @@ Query OK, 0 rows affected (0.14 sec)
 
 mysql> grant all on *.* to testuser@localhost with grant option; # Mysql v8.0, "Grant" allowed at 2nd step.
 Query OK, 0 rows affected (0.19 sec)
+
+======================================
+Ubuntu > sudo service mysqld restart  # Don't forget the restarting mysql !
