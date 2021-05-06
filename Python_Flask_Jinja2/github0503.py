@@ -13,7 +13,7 @@ def getConnection():
 	return pymysql.connect(
 		host='localhost',
 		db='first_db',
-		user='root',
+		user='testuser',
 		password='password',
 		charset='utf8',
 		cursorclass=pymysql.cursors.DictCursor
