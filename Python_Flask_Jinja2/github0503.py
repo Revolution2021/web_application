@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def get():
-	return render_template('index.html', \
+	return render_template('index1.html', \
 		title = 'Form Sample(get)', \
 		message = 'Where do you want to go?')
 
