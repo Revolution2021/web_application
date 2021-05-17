@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>test</title>
+  </head>
+  <body>
+	<h1>Test</h1>
+	<p>Where do you want to go ???</p>
+	<form action="/" method="POST" enctype="multipart/form-data">
+		<div>
+			<p>Select at least one(1) country.</p>
+		</div>
+		<br>
+		<div>
+			<label for="ck1">Afgahanistan：</label>
+			<input type="checkbox" id="ck1" name="checkbox" value="Afgahanistan">
+		</div>
+		<div>
+			<label for="ck2">Australia：</label>
+			<input type="checkbox" id="ck2" name="checkbox" value="Australia">
+		</div>
+		<div>
+			<label for="ck3">England：</label>
+			<input type="checkbox" id="ck3" name="checkbox" value="England">
+		</div>
+		<div>
+			<label for="ck4">France：</label>
+			<input type="checkbox" id="ck4" name="checkbox" value="France">
+		</div>
+		<div>
+			<input type="submit" value="SEND">
+		</div>
+	</form>
+
+<br>
+<br>
+
+<p> Your selected countries are belows.</p>
+<p> ↓ ↓ ↓</p>
+<p id="msg"></p>
+
+<script>
+
+function valueChange(){
+  let res=[];
+  res.push(ck1.checked?'afganistan':'');
+  res.push(ck2.checked?'Australia':'');
+  res.push(ck3.checked?'England':'');
+  res.push(ck4.checked?'France':'');
+  msg.innerHTML=res.join("<br>");
+}
+
+ let ck1= document.getElementById('ck1');
+ ck1.addEventListener('change',valueChange);
+ let ck2= document.getElementById('ck2');
+ ck2.addEventListener('change',valueChange);
+ let ck3= document.getElementById('ck3');
+ ck3.addEventListener('change',valueChange);
+ let ck4= document.getElementById('ck4');
+ ck4.addEventListener('change',valueChange);
+
+ let msg = document.getElementById('msg');
+
+
+</script>
+
+</body>
+  
+	
+</html>
+
+
+
+
+    
